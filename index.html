@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header">
+                <div class="sub-header">
+                    <button class="btn" id="hamburger"><img src="./assets/media/hamburger-removebg-preview.png" alt="hamburger" width="40px"/></button>
+                    <nav class="nav">
+                        <ul>
+                            <li><button onclick="scrollFunctionThree()">Location</button></li>
+                            <li><a onclick="scrollFunctionOne()">Juices</a></li>
+                            <li><a onclick="scrollFunctionTwo()">About</a></li>
+                        </ul>
+                    </nav>
+                    <img src="./assets/media/logov3.png" alt="logo of the buisness">
+                    <span class="nav--span" onclick="scrollFunctionFour()">Items</span>
+                    <div class="gif-one"></div>
+                </div> 
+            </div>
+            <div class="sub-header-two">
+                <ul class="hamburger-list" id="list">
+                    <li><a onclick="scrollFunctionThree()">Location</a></li>
+                    <li><a onclick="scrollFunctionOne()">Juices</a></li>
+                    <li><a onclick="scrollFunctionTwo()">About</a></li>
+                    <li><a onclick="scrollFunctionFour()">Items</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="section-one">
+                <div class="video-container">
+                    <video loop autoplay muted>
+                        <source src="./assets/media/home.mp4">
+                    </video>
+                </div>
+                <h1>
+                    Quench Your Thirst with Nature's Best
+                    Explore Our Fresh and Flavorful Juices Today!
+                </h1>
+                <p>
+                    Welcome to our juice paradise, where every sip is a burst of freshness! 
+                    Our handcrafted juices are made from the finest fruits, cold-pressed to
+                    perfection to retain their natural goodness. 
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section-two">
+                <h1 id="Juices">
+                    JUICES
+                </h1>
+                <h2>We have a lot of variety!</h2>
+                <div class="video-container-two">
+                    <video loop autoplay muted>
+                        <source src="./assets/media/juices.mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section-three">
+                <h1 id="About">
+                    ABOUT ME
+                </h1>
+                <img src="./assets/media/logoOwner-modified.png" alt="img of owner" class="owner">
+                <p>
+                    Welcome to Mahek Juice! Founded just months ago in Greater Noida by a passionate entrepreneur
+                    from Lucknow, we're here to bring you the freshest flavors and the finest blends. 
+                    Join us in savoring the taste of success, one sip at a time!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section-four" id="Items">
+              <div class="sub-one">
+                <h2>FRESH AND SOOTHING</h2>
+                <h1>FRESH FRUITS FROM FARM</h1>
+                <p>
+                    Sourced directly from local farms, our fresh fruits are the heart and soul of our juices.
+                    Taste the difference of farm-to-bottle goodness with every sip!
+                </p>
+              </div>
+              <div class="sub-two"></div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="section-five">
+                <h1 id="Location">
+                    LOCATION
+                </h1>
+                <div class="video-container-three">
+                    <video loop autoplay muted>
+                        <source src="./assets/media/locationv2.mp4">
+                    </video>
+                </div>
+                <p>
+                    N. Q. I. Plaza, Alfa Marg, Alpha-I Commercial Belt, Block E, 
+                    Alpha I, Greater Noida, Uttar Pradesh 201310
+                </p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <img src="./assets/media/logov3.png" alt="logo of the buisness">
+                <p>
+                    Design and Developed by Divv Saxena
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
